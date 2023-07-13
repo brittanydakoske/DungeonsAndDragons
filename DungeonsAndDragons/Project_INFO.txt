@@ -1,0 +1,62 @@
+﻿- Making the Character Creation Form
+	- Two buttons
+		- Save Character
+		- Cancel
+	- 8 Fields
+		- Character Name
+		- Class
+		- Level
+		- Background
+		- Player Name
+		- Race
+		- Alignment
+		- Experience Points
+
+- Making the Main Form (characters index)
+	- Refresh button
+		- Grabs all characters from the database and displays the current exisiting ones
+	- Displays 9 Fields
+		- Id
+		- Character Name
+		- Class
+		- Level
+		- Background
+		- Player Name
+		- Race
+		- Alignment
+		- Experience Points
+	- Readonly
+
+- Making the Update/Delete Character Form
+	- Three Buttons
+		- Cancel
+		- Save
+		- Delete
+	- Almost identical layout to Create Character Form (with added id field)
+	- 8 Fields
+		- Character Name
+		- Class
+		- Level
+		- Background
+		- Player Name
+		- Race
+		- Alignment
+		- Experience Points
+	
+
+********** DATABASE TABLES **********
+
+1. CHARACTER
+
+********** CLASSES **********
+
+1. MY_DB
+2. GAME_CHARACTER
+
+********** LINKS **********
+
+Color ideas from => https://www.pinterest.com/pin/dungeons-and-dragons-scary-beholder-colors-palette--816699713672424304/
+
+Download XAMPP from => https://www.apachefriends.org/download.html
+
+Download MySQL.Data from => https://www.nuget.org/packages/MySql.Data/8.0.33?_src=template#versions-body-tab
